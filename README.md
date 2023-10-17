@@ -10,7 +10,7 @@ Este proyecto fue generado con Angular CLI versión 16.2.4 y se enfoca en la ges
 
 ### Diagrama del Framework Angular
 
-![Diagrama del Framework Angular](URL_DE_LA_IMAGEN)
+![Diagrama del Framework Angular](https://v2.angular.io/resources/images/devguide/architecture/overview2.png)
 
 ### Explicación del Diagrama
 
@@ -26,20 +26,20 @@ Este diseño de ingeniería garantiza una separación clara de responsabilidades
 
 ## Uso del Sistema
 
-Para poner en marcha el frontend de la aplicación, sigue estos pasos:
+Para poner en marcha el frontend de la aplicación, se deben seguir estos pasos:
 
-1. Asegúrate de tener Node.js y npm instalados en tu sistema.
+1. Asegurarse de tener Node.js y npm instalados en el sistema.
 
-2. Ejecuta `npm install` en la raíz del proyecto para instalar las dependencias necesarias.
+2. Ejecutar `npm install` en la raíz del proyecto para instalar las dependencias necesarias.
 
-3. Luego, ejecuta `ng serve` para iniciar un servidor de desarrollo. Navega a `http://localhost:4200/` en tu navegador para acceder a la aplicación. La aplicación se recargará automáticamente si realizas cambios en los archivos fuente.
+3. Luego, ejecutar `ng serve` para iniciar un servidor de desarrollo. Navegar a `http://localhost:4200/` en el navegador permite acceder a la aplicación. La aplicación se recargará automáticamente si se realizan cambios en los archivos fuente.
 
 ## Pruebas
 
-- Ejecuta `ng test` para realizar pruebas unitarias utilizando Karma.
+- Ejecutar `ng test` para realizar pruebas unitarias utilizando Karma.
 
-- Ejecuta `ng e2e` para realizar pruebas end-to-end. Ten en cuenta que debes agregar una herramienta específica para pruebas e2e antes de utilizar este comando.
+- Ejecutar `ng e2e` para realizar pruebas end-to-end. Tener en cuenta que se debe agregar una herramienta específica para pruebas e2e antes de utilizar este comando.
 
 ## Obtener Más Ayuda
 
-Si necesitas más ayuda o información sobre el uso de Angular CLI, ejecuta `ng help` en la consola o consulta la [Página de Visión General y Referencia de Comandos de Angular CLI](https://angular.io/cli).
+Si se necesita más ayuda o información sobre el uso de Angular CLI, ejecutar `ng help` en la consola o consultar la [Página de Visión General y Referencia de Comandos de Angular CLI](https://angular.io/cli).
