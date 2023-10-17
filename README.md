@@ -1,27 +1,45 @@
-# MyApp
+# Frontend de la Aplicación
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+Este es el frontend de la aplicación desarrollada con Angular. A continuación, se presenta una descripción del sistema, seguido de un diseño de ingeniería que incluye un diagrama del framework Angular.
 
-## Development server
+## Descripción del Sistema
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este proyecto fue generado con Angular CLI versión 16.2.4 y se enfoca en la gestión de clientes y productos a través de operaciones CRUD (Crear, Leer, Actualizar y Eliminar). El frontend proporciona una interfaz de usuario intuitiva para interactuar con el backend y administrar datos de manera eficiente.
 
-## Code scaffolding
+## Diseño de Ingeniería
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Diagrama del Framework Angular
 
-## Build
+![Diagrama del Framework Angular](URL_DE_LA_IMAGEN)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Explicación del Diagrama
 
-## Running unit tests
+El diagrama representa la estructura de nuestro sistema frontend desarrollado en Angular, relacionando los componentes clave:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Componentes**: En Angular, los componentes son unidades fundamentales de la aplicación que gestionan partes específicas de la interfaz de usuario. En nuestro sistema, utilizamos componentes para la gestión de clientes y productos, incluyendo funciones de creación, edición y visualización.
 
-## Running end-to-end tests
+- **Servicios**: Los servicios en Angular son clases que permiten compartir datos y funcionalidad entre componentes. En nuestra aplicación, los servicios se utilizan para realizar solicitudes HTTP al backend, facilitando así la comunicación con el servidor y el procesamiento de datos.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Módulos**: Los módulos son contenedores para componentes, servicios y otras partes de la aplicación. Organizamos nuestros componentes y servicios en módulos específicos, como el módulo de clientes y el módulo de productos, para una mejor organización y mantenimiento.
 
-## Further help
+Este diseño de ingeniería garantiza una separación clara de responsabilidades y una arquitectura escalable para nuestra aplicación Angular.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Uso del Sistema
+
+Para poner en marcha el frontend de la aplicación, sigue estos pasos:
+
+1. Asegúrate de tener Node.js y npm instalados en tu sistema.
+
+2. Ejecuta `npm install` en la raíz del proyecto para instalar las dependencias necesarias.
+
+3. Luego, ejecuta `ng serve` para iniciar un servidor de desarrollo. Navega a `http://localhost:4200/` en tu navegador para acceder a la aplicación. La aplicación se recargará automáticamente si realizas cambios en los archivos fuente.
+
+## Pruebas
+
+- Ejecuta `ng test` para realizar pruebas unitarias utilizando Karma.
+
+- Ejecuta `ng e2e` para realizar pruebas end-to-end. Ten en cuenta que debes agregar una herramienta específica para pruebas e2e antes de utilizar este comando.
+
+## Obtener Más Ayuda
+
+Si necesitas más ayuda o información sobre el uso de Angular CLI, ejecuta `ng help` en la consola o consulta la [Página de Visión General y Referencia de Comandos de Angular CLI](https://angular.io/cli).
